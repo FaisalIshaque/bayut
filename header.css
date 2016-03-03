@@ -1,0 +1,26 @@
+.box{
+	width: 100%;
+}
+.move{
+	float: right; 
+	margin-top: 20px;
+}
+#header-top{
+	background-color: none;
+	height: 55px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+    border-bottom-color: #E8E8E8;
+    padding-left: 5%;
+	padding-right: 5%;
+}
+
+#header-content{
+	vertical-align: bottom;
+	margin-left: 10px;
+}
+
+#arr{
+	margin-left: 2px;
+	vertical-align: bottom;
+}
