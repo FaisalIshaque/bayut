@@ -1,0 +1,94 @@
+.container{
+	/* covers the whole page */
+}
+.page-header{
+	padding-bottom: 5px !important;
+    margin: 10px 0 80px !important;
+    border-bottom: 1px solid #eee;
+}
+
+.wrapper{
+	/* bounds the body to center of page */
+	padding-left: 15% !important;
+	margin-right: 15% !important;
+}
+
+.header{
+	/* on the top of the page */
+	/* content stays inside wrapper */
+}
+
+.footer{
+	/* on the bottom of the page */
+	/* content spans outside the wrapper but inside container */
+}
+
+.left{
+	/* all elements inside the left side of page inside wrapper */
+}
+
+.right{
+	/* all elements inside the right side of page inside wrapper */
+}
+
+.contact{
+	/* content spans outside the wrapper but inside container */
+}
+#logo{
+	width: 123px;
+    height: 43px;
+    background: url(elements/images/header_sprite.png) -2px 45px;
+    margin-right: 10px;
+}
+#arrow{
+	width: 16px;
+    height: 16px;
+    background: url(elements/images/header_sprite.png) 48px 71px;
+    margin-left: 3px;
+}
+#like{
+	width: 18px;
+    height: 20px;
+    background: url(elements/images/header_sprite.png) 28px 68px;
+    margin-left: 10px;
+}
+#arabic{
+	margin-left: 10px;
+}
+select {
+    width: 102px;
+    height: 35px;
+    padding: 0px 0px 4px 0px;
+    border: none;
+    background-color: white;
+}
+/*
+.dropdown select {
+      border: 0 !important;.  /*Removes border
+     -webkit-appearance: none;  /*Removes default chrome and safari style
+     -moz-appearance: none;  /*Removes default style Firefox
+      background: url('elements/images/arrow.png') no-repeat;
+      background-position: 82px 7px;
+      text-indent: 0.01px; /* Removes default arrow from firefox
+      text-overflow: "";
+  }
+*/
+#login{
+	background-color: white; /* Green */
+    
+    border-color: #B8B8B8;
+    border-width: 1.5px;
+	border-style: solid;
+	border-radius: 2.5px;
+
+	padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    font-size: 11px;
+}
+#header-menu{
+	float: right;
+	margin-top: 10px;
+}
