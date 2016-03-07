@@ -16,6 +16,9 @@
 .footer{
 	/* on the bottom of the page */
 	/* content spans outside the wrapper but inside container */
+	background: url(elements/images/footer-bg.png);
+	background-repeat: repeat;
+	color: #A0A0A0;
 }
 
 .left{
@@ -29,6 +32,13 @@
 .contact{
 	/* content spans outside the wrapper but inside container */
 }
+.map{
+	color: #A0A0A0;
+}
+.map:hover{
+	text-decoration: none;
+}
+
 #logo{
 	width: 123px;
     height: 43px;
@@ -47,8 +57,39 @@
     background: url(elements/images/header_sprite.png) 28px 68px;
     margin-left: 10px;
 }
+#star{
+	width: 19px;
+    height: 20px;
+    background: url(elements/images/star_arrow.png) 0 0;
+    margin-left: 2px;
+}
+#bluarrow{
+	width: 20px;
+    height: 20px;
+    background: url(elements/images/star_arrow.png) 65px 19px;
+    margin-left: 6px;
+}
+#footer-logos{
+	width: 168px;
+    height: 36px;
+    background: url(elements/images/footer-sprite.png) 0 0;
+    margin-left: 230px;
+}
+#android{
+	width: 145px;
+    height: 48px;
+    background: url(elements/images/footer-sprite.png) 0 48px;
+    margin-left: 150px;
+}
+#apple{
+	width: 145px;
+    height: 48px;
+    background: url(elements/images/footer-sprite.png) 145px 48px;
+    margin-left: 150px;
+}
+
 #arabic{
-	margin-left: 10px;
+	margin-left: 7px;
 }
 #country {
     width: 102px;
@@ -103,6 +144,7 @@
 	border-radius: 2.5px;
 }
 
+
 /* above code needs to be refactored */
 
 /*
@@ -137,10 +179,10 @@
 #find{
 	background-color: #05a262; /* Green */
     
-    border-color: #B8B8B8;
     border-width: 0.10em;
 	border-style: solid;
-	border-radius: 2.5px;
+	border-radius: 3px;
+	border-color: none;
 
 	padding: 4px 15px;
     text-align: center;
@@ -150,13 +192,30 @@
     font-size: 11px;
     font-weight: bold;
     color: white;
-    height: 35px;
+    height: 37px;
     width: 70px;
+    /*box-shadow: 0px 1px 0px #999999;*/
 
     margin-top: 30px;
-    margin-left: 35px;
+    margin-left: 25px;
 }
 /* above code needs to be refactored */
+
+/* refactor the following code using SEARCH class or anyother way*/
+#save{
+    margin-left: 110px;
+    font-size: 11px;
+	margin-top: -36px;
+	color: #0066FF;
+}
+#filter{
+    margin-left: 110px;
+    font-size: 11px;
+    margin-top: 9px;
+    color: #0066FF;
+}
+/* above code needs to be refactored */
+
 
 #header-menu{
 	float: right;
