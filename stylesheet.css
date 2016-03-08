@@ -19,8 +19,11 @@
 }
 .carousel-img{
 	background-color: none;
-	margin-left: 30%;
+	float: left;
 	font-size: 10px;
+}
+#img{
+	display: inline;
 }
 
 .footer{
@@ -67,11 +70,19 @@
 	text-decoration: none;
 }
 
-#logo{
+/*#logo{
 	width: 123px;
     height: 43px;
     background: url(elements/images/header_sprite.png) -2px 45px;
     margin-right: 20px;
+}*/
+#logo {
+	width: 0px;
+    height: 0px;
+    outline: none;
+    padding: 44px 81px 42px 41px;
+    margin: -50px 20px 0px 0px;
+    background-image: url(elements/images/header_sprite.png);
 }
 #arrow{
 	width: 16px;
@@ -115,7 +126,19 @@
     background: url(elements/images/footer-sprite.png) 145px 48px;
     margin-left: 150px;
 }
-
+#nav_back_arrow{
+	width: 28px;
+    height: 22px;
+    background: url(elements/images/pageination_sprite.png) -22px -15px;
+    margin-right: 2px;
+}
+#b_c_right_arrow{
+	width: 18px;
+    height: 25px;
+    background: url(elements/images/pageination_sprite.png) -85px -15px;
+    margin-right: 2px;
+    margin-left: 10px;
+}
 #arabic{
 	margin-left: 7px;
 }
@@ -263,6 +286,12 @@
     margin-left: 110px;
     font-size: 11px;
     margin-top: 9px;
+    color: #0066FF;
+}
+#bread_crumb{
+    font-size: 11px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: #0066FF;
 }
 /* above code needs to be refactored */
