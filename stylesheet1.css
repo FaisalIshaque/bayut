@@ -1,6 +1,9 @@
 .container{
 	/* covers the whole page */
 }
+.main{
+    width: 100%;
+}
 .page-header{
 	padding-bottom: 10px !important;
     margin: 10px 0 10px !important;
@@ -36,6 +39,8 @@
 	background: url(elements/images/footer-bg.png);
 	background-repeat: repeat;
 	color: #A0A0A0;
+    height: 350px;
+    width: 100%;
 }
 
 .left{
@@ -43,21 +48,96 @@
     width: 65%;
     display: inline-block;
     float: left;
-
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .right{
 	/* all elements inside the right side of page inside wrapper */
     width: 30%;
     display: inline-block;
+    margin-top: 10%;
+    margin-bottom: 10%; 
 }
 
+#contact-form, #contact-form-textarea, #btn-email, #btn-call, #form-select, 
+#advert-form-textarea, #advert-btn-email, #advert-btn-call, #advert-form-select{
+    width: 100%;
+    height: 35px;
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    background-color: white;
+
+    border-color: #B8B8B8;
+    border-width: 0.10em;
+    border-style: solid;
+    border-radius: 2.5px;
+}
+
+/* refactor the following code in context with the above */
+
+/* first form*/
+#form-select{
+    width: 103%;
+}
+
+#contact-form-textarea{
+    width: 100%;
+    height: 95px;
+}
+#btn-email{
+    background-color: #07a14f;
+    border-color: #07a14f;
+    color: white;
+    font-weight: bold;
+    width: 105%;
+}
+#btn-call{
+    border-color: #07a14f;
+    color: #07a14f;
+    width: 105%;
+}
+
+/* advert form*/
+#advert-form-select{
+    width: 102%;
+}
+
+#advert-form-textarea{
+    width: 100%;
+    height: 95px;
+}
+#advert-btn-email{
+    background-color: #07a14f;
+    border-color: #07a14f;
+    color: white;
+    font-weight: bold;
+    width: 103%;
+}
+#advert-btn-call{
+    border-color: none;
+    color: #07a14f;
+    width: 103%;
+}
+
+/* refactor the above code*/
 .contact{
 	/* content spans outside the wrapper but inside container */
 	width: 1263px;
 	height: 750px;
 	margin-bottom: 80px;
 	background-image: url(elements/images/pv-contact_agent.jpg);
+}
+#cntct-agnt{
+    margin-left: 22%;
+    font-size: 30px;
+}
+#advert-cntct-agnt{
+    margin-left: 25%;
+    color: white;
+    font-size: 33px;
 }
 
 #contact-img{
@@ -143,19 +223,16 @@
 	width: 168px;
     height: 36px;
     background: url(elements/images/footer-sprite.png) 0 0;
-    margin-left: 230px;
 }
 #android{
 	width: 145px;
     height: 48px;
     background: url(elements/images/footer-sprite.png) 0 48px;
-    margin-left: 150px;
 }
 #apple{
 	width: 145px;
     height: 48px;
     background: url(elements/images/footer-sprite.png) 145px 48px;
-    margin-left: 150px;
 }
 #nav_back_arrow{
 	width: 28px;
@@ -169,6 +246,11 @@
     background: url(elements/images/pageination_sprite.png) -85px -15px;
     margin-right: 2px;
     margin-left: 10px;
+}
+#advert-btn-img{
+   width: 103%;
+    height: 36px;
+    background: url(elements/images/pv-contact_agent.jpg) 1 0;
 }
 
 #country {
@@ -269,7 +351,7 @@
 }
 
 #find{
-	background-color: #05a262; /* Green */
+	background-color: #07a14f; /* Green */
     
     border-width: 0.10em;
 	border-style: solid;
@@ -325,7 +407,7 @@
 }
 #bread_crumb{
     font-size: 11px;
-    margin-top: 10px;
+ 
     margin-bottom: 10px;
     color: #0066FF;
 }
@@ -333,4 +415,18 @@
 
 #main-menu{
 	display: inline-block;
+}
+
+.footer-sitemap{
+    width: 30%;
+    display: inline-block;
+}
+.online-store{
+    width: 30%;
+    display: inline-block;
+}
+.footer-links{
+    width: 30%;
+    display: inline-block;
+    float: right;
 }

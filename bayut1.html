@@ -79,28 +79,49 @@
 			</div>
 			
 			<div class="right">
+				<label id="cntct-agnt">Contact Agent</label>
 				<form>
-					<input id="location-box" type="text" name="name" placeholder="Name"><br>
-					<input id="location-box" type="text" name="email" placeholder="Email"><br>
-					<input id="location-box" type="text" name="phone" placeholder="Phone"><br>
-					<select id="location-box" name="user-type">
+					<input id="contact-form" type="text" name="name" placeholder="Name"><br>
+					<input id="contact-form" type="text" name="email" placeholder="Email"><br>
+					<input id="contact-form" type="text" name="phone" placeholder="Phone"><br>
+					<select id="form-select" name="user-type">
 						<option>I am: Direct Buyer</option>
 						<option>I am: Seller</option>
 						<option>I am: Property Agent</option>
-					</select><br><br>
-					<textarea rows="10" cols="37" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br>
+					</select><br>
+					<textarea id="contact-form-textarea" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br>
 					<label><input type="checkbox">I am not a robot</label><br>
-					<input id="location-box" type="submit" value="Send Email"><br>
-					<input id="location-box" type="submit" value="Call Agent"><br>
+					<input id="btn-email" type="submit" value="Send Email"><br>
+					<input id="btn-call" type="submit" value="Call Agent"><br>
 					<label><input type="checkbox">Keep me update with similar properties</label>
 				</form>
 			</div>
-
 		</div>
 	</section><!-- End Of Container -->
 
-	<section class="contact"><!-- Start Of Contact -->				
-		
+	<section class="contact"><!-- Start Of Contact -->
+		<div class="container">
+			<div class="wrapper right">
+			<label id="advert-cntct-agnt">Contact Agent</label>
+				<form>
+					<input id="contact-form" type="text" name="name" placeholder="Name"><br>
+					<input id="contact-form" type="text" name="email" placeholder="Email"><br>
+					<input id="contact-form" type="text" name="phone" placeholder="Phone"><br>
+					<select id="advert-form-select" name="user-type">
+						<option>I am: Direct Buyer</option>
+						<option>I am: Seller</option>
+						<option>I am: Property Agent</option>
+					</select><br>
+					<textarea id="advert-form-textarea" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br>
+					<label><input type="checkbox">I am not a robot</label><br>
+					<input id="advert-btn-email" type="submit" value="Send Email"><br>
+					<input id="advert-btn-call" type="submit" value="Call Agent">
+					<a href=""><img id="advert-btn-img"></a><br>
+					<label><input type="checkbox">Keep me update with similar properties</label>
+					
+				</form>
+			</div>
+		</div>		
 	</section><!-- End Of Contact -->
 
 	<section class="container"><!-- Start Of Advert Container -->
@@ -147,24 +168,23 @@
 	</section><!-- End Of Advert Container -->
 
 	<section class="footer"><!-- Start Of Footer -->
-		<img src="elements/images/footer-bg.png"><br/>
+		<img src="elements/images/footer-bg.png">
 		<div class="container">
 		
 				<div class="wrapper">	
-					<div >
+					<div class="footer-sitemap">
 						<a class="site-map" href=""> Advertise</a><br/><br/>
 						<a class="site-map" href=""> About Us</a><br/><br/>
 						<a class="site-map" href=""> Contact Us</a><br/><br/>
 						<a class="site-map" href=""> Site Map</a><br/><br/>
 						<a class="site-map" href=""> Terms Of Use</a><br/><br/>
-						<a class="site-map" href=""> Privacy Policy</a><br/><br/><br/><br/>
-						2008-2015 Bayut.com
+						<a class="site-map" href=""> Privacy Policy</a>
 					</div>
-					<div >
-						<img id="android"><br/><br/><br/>
+					<div class="online-store">
+						<img id="android"><br/><br/>
 						<img id="apple">
 					</div>
-					<div >
+					<div class="footer-links">
 						<img id="footer-logos">
 					</div>
 				</div>
