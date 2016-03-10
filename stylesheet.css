@@ -17,13 +17,9 @@
 	margin-right: 10%;
 	margin-left: 10%;
 }
-.carousel-img{
-	background-color: none;
-	float: left;
-	font-size: 10px;
-}
 #img{
 	display: inline;
+	float: left;
 }
 
 .footer{

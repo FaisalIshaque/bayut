@@ -74,8 +74,60 @@
 		</div>
 		<div class="wrapper">
 			
-			<div class="left" id="bread_crumb">
-				<img id="nav_back_arrow"> Dubai <img id="b_c_right_arrow"> Dubai Marina <img id="b_c_right_arrow"> 5 Bedroom - Marina Plaza
+			<div class="left">
+				<div id="bread_crumb">	
+					<img id="nav_back_arrow"> Dubai <img id="b_c_right_arrow"> Dubai Marina <img id="b_c_right_arrow"> 5 Bedroom - Marina Plaza
+				</div>
+				<div class="apt-for-sale">
+					<img src="elements/images/dotw_img.png">
+					<img id="prnt-lk-nxt">
+				</div>
+				<input type="checkbox" class="read-more-state" id="advert-content">
+				<span class="read-more-wrap">
+						The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app.<br><br>
+
+						On your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started.<br><br>
+						<span class="read-more-target">
+						The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app.<br><br>
+
+						On your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started.</span><br>
+				</span>
+				<label for="advert-content" class="read-more-trigger"></label>
+				<div class="amenities">
+					<label id="cntct-agnt">Anemities</label><br><br>
+					<table width="100%">
+						<tr>
+							<td><img id="aircon"></td>
+							<td><img id="firstaid"></td>
+							<td><img id="security"></td>
+						</tr>
+						<tr>
+							<td><img id="elevator"></td>
+							<td><img id="gym"></td>
+							<td><img id="cctv"></td>
+						</tr>
+						<tr>
+							<td><img id="concierge"></td>
+							<td><img id="swimpool"></td>
+							<td></td>
+						</tr>					
+					</table>
+				</div>
+				<div class="nearby-locations">
+					<label id="cntct-agnt">Nearby Locations</label><br>
+				</div>
+				<div class="property-floor-plan">
+					<label id="cntct-agnt">Property Floor Plans</label><br>
+				</div>
+				<div class="property-search-trends">
+					<label id="cntct-agnt">Property Search Trends</label><br>
+				</div>
+				<div class="property-search-index">
+					<label id="cntct-agnt">Property Seach Index</label><br>
+				</div>
+				<div class="your-notes">
+					<label id="cntct-agnt">Your Notes</label><br>
+				</div>
 			</div>
 			
 			<div class="right">
@@ -90,7 +142,7 @@
 						<option>I am: Property Agent</option>
 					</select><br>
 					<textarea id="contact-form-textarea" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br>
-					<label><input type="checkbox">I am not a robot</label><br>
+					<label><input type="checkbox">I am not a robot</label>
 					<input id="btn-email" type="submit" value="Send Email"><br>
 					<input id="btn-call" type="submit" value="Call Agent"><br>
 					<label><input type="checkbox">Keep me update with similar properties</label>
@@ -99,27 +151,27 @@
 		</div>
 	</section><!-- End Of Container -->
 
-	<section class="contact"><!-- Start Of Contact -->
+	<section class="contact-img"><!-- Start Of Contact -->
 		<div class="container">
-			<div class="wrapper right">
-			<label id="advert-cntct-agnt">Contact Agent</label>
-				<form>
-					<input id="contact-form" type="text" name="name" placeholder="Name"><br>
-					<input id="contact-form" type="text" name="email" placeholder="Email"><br>
-					<input id="contact-form" type="text" name="phone" placeholder="Phone"><br>
-					<select id="advert-form-select" name="user-type">
-						<option>I am: Direct Buyer</option>
-						<option>I am: Seller</option>
-						<option>I am: Property Agent</option>
-					</select><br>
-					<textarea id="advert-form-textarea" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br>
-					<label><input type="checkbox">I am not a robot</label><br>
-					<input id="advert-btn-email" type="submit" value="Send Email"><br>
-					<input id="advert-btn-call" type="submit" value="Call Agent">
-					<a href=""><img id="advert-btn-img"></a><br>
-					<label><input type="checkbox">Keep me update with similar properties</label>
-					
-				</form>
+			<div class="wrapper">
+			<div class="advert-contact-container">
+				<label id="advert-cntct-agnt">Contact Agent</label>
+					<form>
+						<input id="advert-contact-form" type="text" name="name" placeholder="Name"><br>
+						<input id="advert-contact-form" type="text" name="email" placeholder="Email"><br>
+						<input id="advert-contact-form" type="text" name="phone" placeholder="Phone"><br>
+						<select id="advert-form-select" name="user-type">
+							<option>I am: Direct Buyer</option>
+							<option>I am: Seller</option>
+							<option>I am: Property Agent</option>
+						</select><br>
+						<textarea id="advert-form-textarea" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br><br>
+						<label style="color: white"><input type="checkbox">I am not a robot</label><br>
+						<input id="advert-btn-email" type="submit" value="SEND EMAIL"><br>
+						<input id="advert-btn-call" type="submit" value="CALL AGENT"><br><br>
+						<label style="color: white"><input type="checkbox">Keep me update with similar properties</label>
+					</form>
+				</div>
 			</div>
 		</div>		
 	</section><!-- End Of Contact -->
@@ -178,11 +230,12 @@
 						<a class="site-map" href=""> Contact Us</a><br/><br/>
 						<a class="site-map" href=""> Site Map</a><br/><br/>
 						<a class="site-map" href=""> Terms Of Use</a><br/><br/>
-						<a class="site-map" href=""> Privacy Policy</a>
+						<a class="site-map" href=""> Privacy Policy</a><br/><br/><br/><br/>
+						© 2008-2015 Bauyt.com
 					</div>
 					<div class="online-store">
-						<img id="android"><br/><br/>
 						<img id="apple">
+						<img id="android">
 					</div>
 					<div class="footer-links">
 						<img id="footer-logos">
