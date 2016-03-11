@@ -307,6 +307,10 @@
     height: 28px;
     background: url(elements/images/pv-amenities.png) -118px 42px;
 }
+
+.table{
+	width: 100%;
+}
 /************/
 #country {
     width: 102px;
