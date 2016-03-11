@@ -1,272 +1,272 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Bayut</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</head>
-<body>
-<div class="main">
-	
-	<section class="page-header"><!-- Start Of Header -->
-		<div class="container">
-			<div class="wrapper">
-				<img id="logo">
-				<select id="country" name="country">
-					<option>The UAE</option>
-					<option>Pakistan</option>
-					<option>Bangladesh</option>
-					<option>France</option>
-				</select>
-				<div id="header-menu">
-					Market Intelligence<img id="arrow">
-					<img id="like"><img id="arabic" src="elements\images\arabic.png">
-					<input id="login" type="button" value="LOGIN"></input>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Bayut</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="main">
+			
+			<section class="page-header"><!-- Start Of Header -->
+				<div class="container">
+					<div class="wrapper">
+						<img id="logo">
+						<select id="country" name="country">
+							<option>The UAE</option>
+							<option>Pakistan</option>
+							<option>Bangladesh</option>
+							<option>France</option>
+						</select>
+						<div id="header-menu">
+							Market Intelligence<img id="arrow">
+							<img id="like"><img id="arabic" src="elements\images\arabic.png">
+							<input id="login" type="button" value="LOGIN"></input>
+						</div>
+					</div>
+				</div>
+			</section><!-- End Of Header -->
+
+			<section class="container"><!-- Start Of Container -->
+				<div class="wrapper">
+					<div class="page-header">
+						<div class="row">
+							
+							<div id="category" class="col-md-2">
+								Category
+								<select id="category-box" name="projects">
+									<option>New Projects</option>
+									<option>Completed Projects</option>
+									<option>In Progress</option>
+								</select>
+							</div>
+
+							<div id="location" class="col-md-2  col-md-offset-1">
+								Location
+								<select id="location-box" name="location">
+									<option>Dubai Marina</option>
+									<option>Completed Projects</option>
+									<option>In Progress</option>
+								</select>
+							</div>
+
+							<div id="pType" class="col-md-2  col-md-offset-2">
+								Property Type
+								<select id="pType-box" name="pType">
+									<option>Other Commercial</option>
+									<option>Completed Projects</option>
+									<option>In Progress</option>
+								</select>
+							</div>
+
+							<div class="search col-md-3">
+								<input id="find" type="button" value="FIND"></input>
+								<div id="save">
+									Save Search<img id="star">
+								</div>
+								<div id="filter">
+									More Filters<img id="bluarrow">
+								</div>	
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="wrapper">
+					<div class="row">
+						
+						<div class="left col-md-8" id="bread_crumb">
+							<img id="nav_back_arrow"> Dubai <img id="b_c_right_arrow"> Dubai Marina <img id="b_c_right_arrow"> 5 Bedroom - Marina Plaza
+						</div>
+						
+						<div class="right col-md-4">
+							<div class="contact-form">
+								<h3 style="text-align: center;">CONTACT AGENT</h3>		
+								<form role="form">
+									<div class="form-group">
+										<input type="name" class="form-control  col-xs-3" id="name" placeholder="Name">
+									</div><br/><br/><br/>
+
+									<div class="form-group">
+										<input type="email" class="form-control  col-xs-3" id="email" placeholder="Email">
+									</div><br/><br/>
+
+									<div class="form-group">
+										<input type="phone" class="form-control  col-xs-3" id="phone" placeholder="Phone">
+									</div><br/><br/>
+
+									<div class="dropdown">
+										<button class="btn btn-default dropdown-toggle btn-block" type="button" data-toggle="dropdown">I am: Direct Buyer
+											<span class="caret"></span></button>
+											<ul class="dropdown-menu btn-block">
+												<li><a href="#">I am: Property Agent</a></li>
+												<li><a href="#">I am: Seller</a></li>
+											</ul>
+										</div><br/>
+
+										<div class="form-group">
+											<textarea class="form-control  col-xs-3" rows="5" id="comment" placeholder="I would like to inquire about your property FC-S-21431. Please contact me at your earliest convenience"></textarea>
+										</div><br/><br/><br/><br/><br/>
+
+										<div class="checkbox">
+											<label><input type="checkbox"> Im Not A Robot</label>
+										</div>
+
+										<div>
+											<button type="submit" class="btn btn-success btn-block">SEND EMAIL</button>
+										</div><br/>
+
+										<div>
+											<button type="submit" class="btn btn-default btn-block">CALL AGENT</button>
+										</div><br/>
+
+										<div class="checkbox">
+											<label><input type="checkbox">Keep me informed of similar properties</label>
+										</div>
+
+									</form>
+								</div>				
+							</div>
+						</div>
+					</div>
+				</section><!-- End Of Container -->
+
+				<section class="contact"><!-- Start Of Contact -->				
+					<div class="row">
+						<div class="col-md-4">
+							<div class="contact-form">
+								<h3 style="text-align: center;">CONTACT AGENT</h3>		
+								<form role="form">
+									<div class="form-group">
+										<input type="name" class="form-control  col-xs-3" id="name" placeholder="Name">
+									</div><br/><br/><br/>
+
+									<div class="form-group">
+										<input type="email" class="form-control  col-xs-3" id="email" placeholder="Email">
+									</div><br/><br/>
+
+									<div class="form-group">
+										<input type="phone" class="form-control  col-xs-3" id="phone" placeholder="Phone">
+									</div><br/><br/>
+
+									<div class="dropdown">
+										<button class="btn btn-default dropdown-toggle btn-block" type="button" data-toggle="dropdown">I am: Direct Buyer
+											<span class="caret"></span></button>
+											<ul class="dropdown-menu btn-block">
+												<li><a href="#">I am: Property Agent</a></li>
+												<li><a href="#">I am: Seller</a></li>
+											</ul>
+										</div><br/>
+
+										<div class="form-group">
+											<textarea class="form-control  col-xs-3" rows="5" id="comment" placeholder="I would like to inquire about your property FC-S-21431. Please contact me at your earliest convenience"></textarea>
+										</div><br/><br/><br/><br/><br/>
+
+										<div class="checkbox">
+											<label><input type="checkbox"> Im Not A Robot</label>
+										</div>
+
+										<div>
+											<button type="submit" class="btn btn-success btn-block">SEND EMAIL</button>
+										</div>
+
+										<br/>
+
+										<div>
+											<button type="submit" class="btn btn-default btn-block">CALL AGENT</button>
+										</div><br/>
+
+										<div class="checkbox">
+											<label><input type="checkbox">Keep me informed of similar properties</label>
+										</div>
+
+									</form>
+								</div>
+							</div>
+						</div>
+					</section><!-- End Of Contact -->
+
+					<section class="container"><!-- Start Of Advert Container -->
+						<div class="wrapper">
+							<div class="advert">
+								<div id="myCarousel" class="carousel slide" data-ride="carousel">
+									<!-- Indicators -->
+					<!--	<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+							<li data-target="#myCarousel" data-slide-to="3"></li>
+							<li data-target="#myCarousel" data-slide-to="4"></li>
+							<li data-target="#myCarousel" data-slide-to="5"></li>
+						</ol>	-->
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active">
+								<img id="img" src="elements/images/carousel1.jpg">
+								<img id="img" src="elements/images/carousel2.jpg">  
+								<img id="img" src="elements/images/carousel3.jpg">
+							</div>
+
+							<div class="item carousel-img">
+								<img id="img" src="elements/images/carousel4.jpg">
+								<img id="img" src="elements/images/carousel5.jpg">  
+								<img id="img" src="elements/images/carousel6.jpg">
+								
+							</div>
+
+							<div class="item carousel-img">
+								<img id="img" src="elements/images/carousel4.jpg">
+								<img id="img" src="elements/images/carousel1.jpg">  
+								<img id="img" src="elements/images/carousel3.jpg">
+								
+							</div>
+						</div>
+
+						<!-- Left and right controls -->
+						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section><!-- End Of Header -->
+		</section><!-- End Of Advert Container -->
 
-	<section class="container"><!-- Start Of Container -->
-		<div class="wrapper">
-			<div class="page-header">
+		<section class="footer"><!-- Start Of Footer -->
+			<img src="elements/images/footer-bg.png"><br/>
+			<div class="container">
 				<div class="row">
-					
-					<div id="category" class="col-md-2">
-						Category
-						<select id="category-box" name="projects">
-							<option>New Projects</option>
-							<option>Completed Projects</option>
-							<option>In Progress</option>
-						</select>
-					</div>
-
-					<div id="location" class="col-md-2  col-md-offset-1">
-						Location
-						<select id="location-box" name="location">
-							<option>Dubai Marina</option>
-							<option>Completed Projects</option>
-							<option>In Progress</option>
-						</select>
-					</div>
-
-					<div id="pType" class="col-md-2  col-md-offset-2">
-						Property Type
-						<select id="pType-box" name="pType">
-							<option>Other Commercial</option>
-							<option>Completed Projects</option>
-							<option>In Progress</option>
-						</select>
-					</div>
-
-					<div class="search col-md-3">
-						<input id="find" type="button" value="FIND"></input>
-						<div id="save">
-							Save Search<img id="star">
+					<div class="wrapper">	
+						<div class="col-md-2">
+							<a class="site-map" href=""> Advertise</a><br/><br/>
+							<a class="site-map" href=""> About Us</a><br/><br/>
+							<a class="site-map" href=""> Contact Us</a><br/><br/>
+							<a class="site-map" href=""> Site Map</a><br/><br/>
+							<a class="site-map" href=""> Terms Of Use</a><br/><br/>
+							<a class="site-map" href=""> Privacy Policy</a><br/><br/><br/><br/>
+							2008-2015 Bayut.com
 						</div>
-						<div id="filter">
-							More Filters<img id="bluarrow">
-						</div>	
-					</div>
-
-				</div>
-			</div>
-		</div>
-		<div class="wrapper">
-			<div class="row">
-				
-				<div class="left col-md-8" id="bread_crumb">
-					<img id="nav_back_arrow"> Dubai <img id="b_c_right_arrow"> Dubai Marina <img id="b_c_right_arrow"> 5 Bedroom - Marina Plaza
-				</div>
-				
-				<div class="right col-md-4">
-					<div class="contact-form">
-						<h3 style="text-align: center;">CONTACT AGENT</h3>		
-						<form role="form">
-							<div class="form-group">
-								<input type="name" class="form-control  col-xs-3" id="name" placeholder="Name">
-							</div><br/><br/><br/>
-
-							<div class="form-group">
-								<input type="email" class="form-control  col-xs-3" id="email" placeholder="Email">
-							</div><br/><br/>
-
-							<div class="form-group">
-								<input type="phone" class="form-control  col-xs-3" id="phone" placeholder="Phone">
-							</div><br/><br/>
-
-							<div class="dropdown">
-								<button class="btn btn-default dropdown-toggle btn-block" type="button" data-toggle="dropdown">I am: Direct Buyer
-								<span class="caret"></span></button>
-								<ul class="dropdown-menu btn-block">
-								<li><a href="#">I am: Property Agent</a></li>
-								<li><a href="#">I am: Seller</a></li>
-								</ul>
-							</div><br/>
-
-							<div class="form-group">
-								<textarea class="form-control  col-xs-3" rows="5" id="comment" placeholder="I would like to inquire about your property FC-S-21431. Please contact me at your earliest convenience"></textarea>
-							</div><br/><br/><br/><br/><br/>
-
-							<div class="checkbox">
-								<label><input type="checkbox"> Im Not A Robot</label>
-							</div>
-
-							<div>
-								<button type="submit" class="btn btn-success btn-block">SEND EMAIL</button>
-							</div><br/>
-
-							<div>
-								<button type="submit" class="btn btn-default btn-block">CALL AGENT</button>
-							</div><br/>
-
-							<div class="checkbox">
-								<label><input type="checkbox">Keep me informed of similar properties</label>
-							</div>
-
-						</form>
-					</div>				
-				</div>
-			</div>
-		</div>
-	</section><!-- End Of Container -->
-
-	<section class="contact"><!-- Start Of Contact -->				
-		<div class="row">
-			<div class="col-md-4">
-				<div class="contact-form">
-					<h3 style="text-align: center;">CONTACT AGENT</h3>		
-					<form role="form">
-					<div class="form-group">
-						<input type="name" class="form-control  col-xs-3" id="name" placeholder="Name">
-					</div><br/><br/><br/>
-
-					<div class="form-group">
-						<input type="email" class="form-control  col-xs-3" id="email" placeholder="Email">
-					</div><br/><br/>
-
-					<div class="form-group">
-						<input type="phone" class="form-control  col-xs-3" id="phone" placeholder="Phone">
-					</div><br/><br/>
-
-				<div class="dropdown">
-						<button class="btn btn-default dropdown-toggle btn-block" type="button" data-toggle="dropdown">I am: Direct Buyer
-						<span class="caret"></span></button>
-						<ul class="dropdown-menu btn-block">
-						<li><a href="#">I am: Property Agent</a></li>
-						<li><a href="#">I am: Seller</a></li>
-						</ul>
-					</div><br/>
-
-					<div class="form-group">
-						<textarea class="form-control  col-xs-3" rows="5" id="comment" placeholder="I would like to inquire about your property FC-S-21431. Please contact me at your earliest convenience"></textarea>
-					</div><br/><br/><br/><br/><br/>
-
-					<div class="checkbox">
-							<label><input type="checkbox"> Im Not A Robot</label>
-					</div>
-
-					<div>
-						<button type="submit" class="btn btn-success btn-block">SEND EMAIL</button>
-					</div>
-
-					<br/>
-
-					<div>
-						<button type="submit" class="btn btn-default btn-block">CALL AGENT</button>
-					</div><br/>
-
-					<div class="checkbox">
-							<label><input type="checkbox">Keep me informed of similar properties</label>
-					</div>
-
-					</form>
-				</div>
-			</div>
-		</div>
-	</section><!-- End Of Contact -->
-
-	<section class="container"><!-- Start Of Advert Container -->
-		<div class="wrapper">
-			<div class="advert">
-				<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					  <!-- Indicators -->
-				<!--	<ol class="carousel-indicators">
-					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					    <li data-target="#myCarousel" data-slide-to="1"></li>
-					    <li data-target="#myCarousel" data-slide-to="2"></li>
-					    <li data-target="#myCarousel" data-slide-to="3"></li>
-					    <li data-target="#myCarousel" data-slide-to="4"></li>
-					    <li data-target="#myCarousel" data-slide-to="5"></li>
-					  </ol>	-->
-
-					  <!-- Wrapper for slides -->
-					<div class="carousel-inner" role="listbox">
-					    <div class="item active">
-					    	<img id="img" src="elements/images/carousel1.jpg">
-							<img id="img" src="elements/images/carousel2.jpg">  
-							<img id="img" src="elements/images/carousel3.jpg">
-					    </div>
-
-					    <div class="item carousel-img">
-					   		<img id="img" src="elements/images/carousel4.jpg">
-							<img id="img" src="elements/images/carousel5.jpg">  
-							<img id="img" src="elements/images/carousel6.jpg">
-						   
+						<div class="col-md-4">
+							<img id="android"><br/><br/><br/>
+							<img id="apple">
 						</div>
-
-					    <div class="item carousel-img">
-					    	<img id="img" src="elements/images/carousel4.jpg">
-							<img id="img" src="elements/images/carousel1.jpg">  
-							<img id="img" src="elements/images/carousel3.jpg">
-						    
-				        </div>
-					</div>
-
-					  <!-- Left and right controls -->
-					  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					    <span class="sr-only">Previous</span>
-					  </a>
-					  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					    <span class="sr-only">Next</span>
-					  </a>
-				</div>
-			</div>
-		</div>
-	</section><!-- End Of Advert Container -->
-
-	<section class="footer"><!-- Start Of Footer -->
-		<img src="elements/images/footer-bg.png"><br/>
-		<div class="container">
-			<div class="row">
-				<div class="wrapper">	
-					<div class="col-md-2">
-						<a class="site-map" href=""> Advertise</a><br/><br/>
-						<a class="site-map" href=""> About Us</a><br/><br/>
-						<a class="site-map" href=""> Contact Us</a><br/><br/>
-						<a class="site-map" href=""> Site Map</a><br/><br/>
-						<a class="site-map" href=""> Terms Of Use</a><br/><br/>
-						<a class="site-map" href=""> Privacy Policy</a><br/><br/><br/><br/>
-						2008-2015 Bayut.com
-					</div>
-					<div class="col-md-4">
-						<img id="android"><br/><br/><br/>
-						<img id="apple">
-					</div>
-					<div class="col-md-4">
-						<img id="footer-logos">
+						<div class="col-md-4">
+							<img id="footer-logos">
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- End Of Footer -->
-</div>
+		</section>
+		<!-- End Of Footer -->
+	</div>
 </body>
 </html>

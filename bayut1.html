@@ -1,265 +1,304 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Bayut</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet1.css">
-</head>
-<body>
-<div class="main">
-	
-	<section class="page-header"><!-- Start Of Header -->
-		<div class="container">
-			<div class="wrapper">
-				<img id="logo"></img>
-				<select id="country" name="country">
-					<option>The UAE</option>
-					<option>Pakistan</option>
-					<option>Bangladesh</option>
-					<option>France</option>
-				</select>
-				<ul id="navbar">
-					<li id="nav">Market Intelligence</li>
-					<li id="nav"><img id="arrow"></li>
-					<li id="nav"><img id="like"></li>
-					<li id="nav"><img id="arabic" src="elements\images\arabic.png"></li>
-					<li id="nav"><input id="login" type="button" value="LOGIN"></input></li>
-				</ul>
-			</div>
-		</div>
-	</section><!-- End Of Header -->
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Bayut</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet1.css">
+		<script src="jquery.min.js"></script>
+		<script src="toggle.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+	</head>
+	<body>
+		<div class="main">
 
-	<section class="container"><!-- Start Of Container -->
-		<div class="wrapper">
-			<div class="page-header">
-
-				<div id="category">
-					Category<br>
-					<select id="category-box" name="projects">
-						<option>New Projects</option>
-						<option>Completed Projects</option>
-						<option>In Progress</option>
-					</select>
-				</div>
-
-				<div id="location">
-					Location<br>
-					<select id="location-box" name="location">
-						<option>Dubai Marina</option>
-						<option>Completed Projects</option>
-						<option>In Progress</option>
-					</select>
-				</div>
-
-				<div id="pType">
-					Property Type<br>
-					<select id="pType-box" name="pType">
-						<option>Other Commercial</option>
-						<option>Completed Projects</option>
-						<option>In Progress</option>
-					</select>
-				</div>
-
-				<div id="search">
-					<input id="find" type="button" value="FIND"></input>
-					<div class="search-menu">
-						<div id="save">
-							Save Search<img id="star">
-						</div>
-						<div id="filter">
-							More Filters<img id="bluarrow">
-						</div>	
+			<section class="page-header"><!-- Start Of Header -->
+				<div class="container">
+					<div class="wrapper">
+						<img id="logo"></img>
+						<select id="country" name="country">
+							<option>The UAE</option>
+							<option>Pakistan</option>
+							<option>Bangladesh</option>
+							<option>France</option>
+						</select>
+						<ul id="navbar">
+							<li id="nav">Market Intelligence</li>
+							<li id="nav"><img id="arrow"></li>
+							<li id="nav"><img id="like"></li>
+							<li id="nav"><img id="arabic" src="elements\images\arabic.png"></li>
+							<li id="nav"><input id="login" type="button" value="LOGIN"></input></li>
+						</ul>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="wrapper">
-			
-			<div class="left">
-				<div id="bread_crumb">	
-					<img id="nav_back_arrow"> Dubai <img id="b_c_right_arrow"> Dubai Marina <img id="b_c_right_arrow"> 5 Bedroom - Marina Plaza
-				</div>
-				<div class="apt-for-sale">
-					<img src="elements/images/dotw_img.png">
-					<img id="prnt-lk-nxt">
-				</div>
-				<input type="checkbox" class="read-more-state" id="advert-content">
-				<span class="read-more-wrap">
-						The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app.<br><br>
+			</section><!-- End Of Header -->
 
-						On your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started.<br><br>
-						<span class="read-more-target">
-						The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app.<br><br>
+			<section class="container"><!-- Start Of Container -->
+				<div class="wrapper">
+					<div class="page-header">
 
-						On your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started.</span><br>
-				</span>
-				<label for="advert-content" class="read-more-trigger"></label>
-				<div class="amenities">
-					<label id="cntct-agnt">Anemities</label><br><br>
-					<table class="table">
-						<tr>
-							<td><img id="aircon"></td><td>Central Air-con</td>
-							
-							
-							<td><img id="firstaid"></td><td>First Aid</td>
-							<td><img id="security"></td><td>Secuirty Staff</td>
-						</tr>
-						<tr>
-							<td><img id="elevator"></td><td>Service Elevators</td>
-							<td><img id="gym"></td><td>Gym or Health Club</td>
-							<td><img id="cctv"></td><td>CCTV security</td>
-						</tr>
-						<tr>
-							<td><img id="concierge"></td><td>24 Hour Concierge</td>
-							<td><img id="swimpool"></td><td>Swimming Pool</td>
-							<td></td></td><td>
-						</tr>					
-					</table>
-				</div>
-				<div class="nearby-locations">
-					<label id="cntct-agnt">Nearby Locations</label><br>
-				</div>
-				<div class="property-floor-plan">
-					<label id="cntct-agnt">Property Floor Plans</label><br>
-					<img src="elements/images/fplan_b.png"><img src="elements/images/fplan_c.png"><img src="elements/images/fplan_a.png"><br>
-					<img src="elements/images/fplan_b.png"><img src="elements/images/fplan_c.png"><img src="elements/images/fplan_a.png">
-				</div>
-				<div class="property-search-trends">
-					<label id="cntct-agnt">Property Search Trends</label><br>
-				</div>
-				<div class="property-search-index">
-					<label id="cntct-agnt">Property Seach Index</label><br>
-				</div>
-				<div class="your-notes">
-					<label id="cntct-agnt">Your Notes</label><br>
-				</div>
-			</div>
-			
-			<div class="right">
-				<label id="cntct-agnt">Contact Agent</label>
-				<form>
-					<input id="contact-form" type="text" name="name" placeholder="Name"><br>
-					<input id="contact-form" type="text" name="email" placeholder="Email"><br>
-					<input id="contact-form" type="text" name="phone" placeholder="Phone"><br>
-					<select id="form-select" name="user-type">
-						<option>I am: Direct Buyer</option>
-						<option>I am: Seller</option>
-						<option>I am: Property Agent</option>
-					</select><br>
-					<textarea id="contact-form-textarea" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br>
-					<label><input type="checkbox">I am not a robot</label>
-					<input id="btn-email" type="submit" value="Send Email"><br>
-					<input id="btn-call" type="submit" value="Call Agent"><br>
-					<label><input type="checkbox">Keep me update with similar properties</label>
-				</form>
-			</div>
-		</div>
-	</section><!-- End Of Container -->
-
-	<section class="contact-img"><!-- Start Of Contact -->
-		<div class="container">
-			<div class="wrapper">
-			<div class="advert-contact-container">
-				<label id="advert-cntct-agnt">Contact Agent</label>
-					<form>
-						<input id="advert-contact-form" type="text" name="name" placeholder="Name"><br>
-						<input id="advert-contact-form" type="text" name="email" placeholder="Email"><br>
-						<input id="advert-contact-form" type="text" name="phone" placeholder="Phone"><br>
-						<select id="advert-form-select" name="user-type">
-							<option>I am: Direct Buyer</option>
-							<option>I am: Seller</option>
-							<option>I am: Property Agent</option>
-						</select><br>
-						<textarea id="advert-form-textarea" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br><br>
-						<label style="color: white"><input type="checkbox">I am not a robot</label><br>
-						<input id="advert-btn-email" type="submit" value="SEND EMAIL"><br>
-						<input id="advert-btn-call" type="submit" value="CALL AGENT"><br><br>
-						<label style="color: white"><input type="checkbox">Keep me update with similar properties</label>
-					</form>
-				</div>
-			</div>
-		</div>		
-	</section><!-- End Of Contact -->
-
-	<section class="container"><!-- Start Of Advert Container -->
-		<div class="wrapper">
-			<div class="advert">
-			<!--	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					 
-					  <!-- Wrapper for slides 
-					<div class="carousel-inner" role="listbox">
-					    <div class="item active carousel-img">
-					    	<img id="img" src="elements/images/carousel1.jpg">
-							<img id="img" src="elements/images/carousel2.jpg">  
-							<img id="img" src="elements/images/carousel3.jpg">
-					    </div>
-
-					    <div class="item carousel-img">
-					   		<img id="img" src="elements/images/carousel4.jpg">
-							<img id="img" src="elements/images/carousel5.jpg">  
-							<img id="img" src="elements/images/carousel6.jpg">
-						   
+						<div id="category">
+							Category<br>
+							<select id="category-box" name="projects">
+								<option>New Projects</option>
+								<option>Completed Projects</option>
+								<option>In Progress</option>
+							</select>
 						</div>
 
-					    <div class="item carousel-img">
-					    	<img id="img" src="elements/images/carousel4.jpg">
-							<img id="img" src="elements/images/carousel1.jpg">  
-							<img id="img" src="elements/images/carousel3.jpg">
-						    
-				        </div>
+						<div id="location">
+							Location<br>
+							<select id="location-box" name="location">
+								<option>Dubai Marina</option>
+								<option>Completed Projects</option>
+								<option>In Progress</option>
+							</select>
+						</div>
+
+						<div id="pType">
+							Property Type<br>
+							<select id="pType-box" name="pType">
+								<option>Other Commercial</option>
+								<option>Completed Projects</option>
+								<option>In Progress</option>
+							</select>
+						</div>
+
+						<div id="search">
+							<input id="find" type="button" value="FIND"></input>
+							<div class="search-menu">
+								<div id="save">
+									Save Search<img id="star">
+								</div>
+								<div id="filter">
+									More Filters<img id="bluarrow">
+								</div>	
+							</div>
+						</div>
 					</div>
+				</div>
+				<div class="wrapper">
 
-					  <!-- Left and right controls 
-					  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					    <span class="sr-only">Previous</span>
-					  </a>
-					  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					    <span class="sr-only">Next</span>
-					  </a>
-				</div> -->
+					<div class="left">
+						<div id="bread_crumb">	
+							<img id="nav_back_arrow"> Dubai <img id="b_c_right_arrow"> Dubai Marina <img id="b_c_right_arrow"> 5 Bedroom - Marina Plaza
+						</div>
+						<div class="apt-for-sale">
+							<img src="elements/images/dotw_img.png">
+							<img id="prnt-lk-nxt">
+						</div>
+						<input type="checkbox" class="read-more-state" id="advert-content">
+						<span class="read-more-wrap">
+							The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app.<br><br>
 
-			</div>
-		</div>
+							On your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started.<br><br>
+							<span class="read-more-target">
+								The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app.<br><br>
+
+								On your computer or mobile device to get started. The best features of Gmail are only available on your phone and tablet with the official Gmail app. Download the app or go to gmail.com on your computer or mobile device to get started.</span><br>
+							</span>
+							<label for="advert-content" class="read-more-trigger"></label>
+							<div class="amenities">
+								<div class="page-header">
+								<span id="amenities-label">Amenities</span>
+								<button id="toggle-amenities" type="submit" value="Hide"><img id="arrow"></button>
+								</div>
+								<div id="amenities-table">
+									<table>
+										<tr>
+											<td><img id="aircon"></td><td>Central Air-con</td>
+											<td><img id="firstaid"></td><td>First Aid</td>
+											<td><img id="security"></td><td>Secuirty Staff</td>
+										</tr>
+										<tr>
+											<td><img id="elevator"></td><td>Service Elevators</td>
+											<td><img id="gym"></td><td>Gym or Health Club</td>
+											<td><img id="cctv"></td><td>CCTV security</td>
+										</tr>
+										<tr>
+											<td><img id="concierge"></td><td>24 Hour Concierge</td>
+											<td><img id="swimpool"></td><td>Swimming Pool</td>
+											<td></td><td></td>
+										</tr>					
+									</table>
+								</div>
+							</div>
+							
+							<div class="nearby-locations">
+								<div class="page-header">
+									<span id="cntct-agnt">Nearby Locations</span>
+									<button id="toggle-map" type="submit" value="Hide"><img id="arrow"></button>
+								</div>
+									<div id="map">
+									<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:620px;'><div id='gmap_canvas' style='height:300px;width:620px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google map							</a></small></div><div><small><a href="http://www.freedirectorysubmissionsites.com/">link directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(25.2561463,55.35251141318359),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(25.2561463,55.35251141318359)});infowindow = new google.maps.InfoWindow({content:'<strong>Bayut</strong><br>Dubai airport<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+									</script>
+									</div>
+							</div>
+							
+							<div class="property-floor-plan">
+								<div class="page-header">
+									<span id="cntct-agnt">Property Floor Plans</span>
+									<button id="toggle-floorplan" type="submit" value="Hide"><img id="arrow"></button>
+								</div>
+								<div id="floorplan">
+									<img src="elements/images/fplan_b.png"><img src="elements/images/fplan_c.png"><img src="elements/images/fplan_a.png">
+									<br>
+									<div id="hide-property">
+										<img src="elements/images/fplan_b.png"><img src="elements/images/fplan_c.png">
+										<img src="elements/images/fplan_a.png">
+									</div>
+									<input id="show-hide" type="button" value="View All"></input>
+								</div>
+							</div>
+							
+							<div class="property-search-trends">
+								<div class="page-header">
+									<span id="cntct-agnt">Property Search Trends</span>
+									<button id="toggle-floorplan" type="submit" value="Hide"><img id="arrow"></button>
+								</div>
+							</div>
+							
+							<div class="property-search-index">
+								<div class="page-header">
+									<span id="cntct-agnt">Property Seach Index</span>
+									<button id="toggle-floorplan" type="submit" value="Hide"><img id="arrow"></button>
+								</div>
+								
+							</div>
+							
+							<div class="your-notes">
+								<div class="page-header">
+									<span id="cntct-agnt">Your Notes</span>
+									<button id="toggle-floorplan" type="submit" value="Hide"><img id="arrow"></button>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="right">
+							<label id="cntct-agnt">Contact Agent</label>
+							<form>
+								<input id="contact-form" type="text" name="name" placeholder="Name"><br>
+								<input id="contact-form" type="text" name="email" placeholder="Email"><br>
+								<input id="contact-form" type="text" name="phone" placeholder="Phone"><br>
+								<select id="form-select" name="user-type">
+									<option>I am: Direct Buyer</option>
+									<option>I am: Seller</option>
+									<option>I am: Property Agent</option>
+								</select><br>
+								<textarea id="contact-form-textarea" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br>
+								<label><input type="checkbox">I am not a robot</label>
+								<input id="btn-email" type="submit" value="Send Email"><br>
+								<input id="btn-call" type="submit" value="Call Agent"><br>
+								<label><input type="checkbox">Keep me update with similar properties</label>
+							</form>
+						</div>
+					</div>
+				</section><!-- End Of Container -->
+
+				<section class="contact-img"><!-- Start Of Contact -->
+					<div class="container">
+						<div class="wrapper">
+							<div class="contact-container">
+								<label id="advert-cntct-agnt">Contact Agent</label>
+								<form>
+									<input id="advert-contact-form" type="text" name="name" placeholder="Name"><br>
+									<input id="advert-contact-form" type="text" name="email" placeholder="Email"><br>
+									<input id="advert-contact-form" type="text" name="phone" placeholder="Phone"><br>
+									<select id="advert-form-select" name="user-type">
+										<option>I am: Direct Buyer</option>
+										<option>I am: Seller</option>
+										<option>I am: Property Agent</option>
+									</select><br>
+									<textarea id="advert-form-textarea" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br><br>
+									<label style="color: white"><input type="checkbox">I am not a robot</label><br>
+									<input id="advert-btn-email" type="submit" value="SEND EMAIL"><br>
+									<input id="advert-btn-call" type="submit" value="CALL AGENT"><br><br>
+									<label style="color: white"><input type="checkbox">Keep me update with similar properties</label>
+								</form>
+							</div>
+						</div>
+					</div>		
+				</section><!-- End Of Contact -->
+
+				<section class="container"><!-- Start Of Advert Container -->
+					<div class="wrapper">
+						<div class="advert">
+	<!--	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+	<!-- Wrapper for slides 
+	<div class="carousel-inner" role="listbox">
+	<div class="item active carousel-img">
+	<img id="img" src="elements/images/carousel1.jpg">
+	<img id="img" src="elements/images/carousel2.jpg">  
+	<img id="img" src="elements/images/carousel3.jpg">
+	</div>
+
+	<div class="item carousel-img">
+	<img id="img" src="elements/images/carousel4.jpg">
+	<img id="img" src="elements/images/carousel5.jpg">  
+	<img id="img" src="elements/images/carousel6.jpg">
+
+	</div>
+
+	<div class="item carousel-img">
+	<img id="img" src="elements/images/carousel4.jpg">
+	<img id="img" src="elements/images/carousel1.jpg">  
+	<img id="img" src="elements/images/carousel3.jpg">
+
+	</div>
+	</div>
+
+	<!-- Left and right controls 
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	<span class="sr-only">Next</span>
+	</a>
+	</div> -->
+
+	</div>
+	</div>
 	</section><!-- End Of Advert Container -->
 
 	<section class="footer"><!-- Start Of Footer -->
 		<img src="elements/images/footer-bg.png">
 		<div class="container">
-		
-				<div class="wrapper">	
-					<div class="footer-sitemap">
-						<a class="site-map" href=""> Advertise</a><br/><br/>
-						<a class="site-map" href=""> About Us</a><br/><br/>
-						<a class="site-map" href=""> Contact Us</a><br/><br/>
-						<a class="site-map" href=""> Site Map</a><br/><br/>
-						<a class="site-map" href=""> Terms Of Use</a><br/><br/>
-						<a class="site-map" href=""> Privacy Policy</a><br/><br/><br/><br/>
-						© 2008-2015 Bauyt.com
-					</div>
-					<div class="online-store">
-						<img id="apple">
-						<img id="android">
-					</div>
-					<div class="footer-links">
-						<img id="footer-logos">
-					</div>
+
+			<div class="wrapper">	
+				<div class="footer-sitemap">
+					<a class="site-map" href=""> Advertise</a><br/><br/>
+					<a class="site-map" href=""> About Us</a><br/><br/>
+					<a class="site-map" href=""> Contact Us</a><br/><br/>
+					<a class="site-map" href=""> Site Map</a><br/><br/>
+					<a class="site-map" href=""> Terms Of Use</a><br/><br/>
+					<a class="site-map" href=""> Privacy Policy</a><br/><br/><br/><br/>
+					© 2008-2015 Bauyt.com
 				</div>
-			
+				<div class="online-store">
+					<img id="apple">
+					<img id="android">
+				</div>
+				<div class="footer-links">
+					<img id="footer-logos">
+				</div>
+			</div>
+
 		</div>
 	</section>
 	<!-- End Of Footer -->
-</div>
+	</div>
 
 
-</body>
-</html>
- <!-- Indicators -->
-				<!--	<ol class="carousel-indicators">
-					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					    <li data-target="#myCarousel" data-slide-to="1"></li>
-					    <li data-target="#myCarousel" data-slide-to="2"></li>
-					    <li data-target="#myCarousel" data-slide-to="3"></li>
-					    <li data-target="#myCarousel" data-slide-to="4"></li>
-					    <li data-target="#myCarousel" data-slide-to="5"></li>
-					  </ol>	-->
+	</body>
+	</html>
+	<!-- Indicators -->
+	<!--	<ol class="carousel-indicators">
+	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	<li data-target="#myCarousel" data-slide-to="1"></li>
+	<li data-target="#myCarousel" data-slide-to="2"></li>
+	<li data-target="#myCarousel" data-slide-to="3"></li>
+	<li data-target="#myCarousel" data-slide-to="4"></li>
+	<li data-target="#myCarousel" data-slide-to="5"></li>
+	</ol>	-->

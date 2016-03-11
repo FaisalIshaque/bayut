@@ -1,162 +1,162 @@
 .container{
-	/* covers the whole page */
+/* covers the whole page */
 }
 .page-header{
-	padding-bottom: 10px !important;
-    margin: 10px 0 10px !important;
-    border-bottom: 1px solid #eee;
+padding-bottom: 10px !important;
+margin: 10px 0 10px !important;
+border-bottom: 1px solid #eee;
 }
 
 .wrapper{
-	/* bounds the body to center of page */
-	padding-left: 12% !important;
-	margin-right: 12% !important;
+/* bounds the body to center of page */
+padding-left: 12% !important;
+margin-right: 12% !important;
 }
 .advert{
-	height: 300px;
-	margin-right: 10%;
-	margin-left: 10%;
+height: 300px;
+margin-right: 10%;
+margin-left: 10%;
 }
 #img{
-	display: inline;
-	float: left;
+display: inline;
+float: left;
 }
 
 .footer{
-	/* on the bottom of the page */
-	/* content spans outside the wrapper but inside container */
-	background: url(elements/images/footer-bg.png);
-	background-repeat: repeat;
-	color: #A0A0A0;
+/* on the bottom of the page */
+/* content spans outside the wrapper but inside container */
+background: url(elements/images/footer-bg.png);
+background-repeat: repeat;
+color: #A0A0A0;
 }
 
 .left{
-	/* all elements inside the left side of page inside wrapper */
+/* all elements inside the left side of page inside wrapper */
 }
 
 .right{
-	/* all elements inside the right side of page inside wrapper */
+/* all elements inside the right side of page inside wrapper */
 }
 
 .contact{
-	/* content spans outside the wrapper but inside container */
-	width: 1263px;
-	height: 750px;
-	margin-bottom: 80px;
-	background-image: url(elements/images/pv-contact_agent.jpg);
+/* content spans outside the wrapper but inside container */
+width: 1263px;
+height: 750px;
+margin-bottom: 80px;
+background-image: url(elements/images/pv-contact_agent.jpg);
 }
 #contact-img{
-	width: 100%;
-	height: 100%;
+width: 100%;
+height: 100%;
 }
 .contact-form{
-	margin-top: 80px;
-	margin-left: 150px;
-	width: 100%;
-	height: 100%;
-	color: white;
-	background: linear-gradient(to bottom, rgba(002,0,0,0.5), rgba(002,0,0,0.5));
-	padding: 10px 30px 10px 30px;
+margin-top: 80px;
+margin-left: 150px;
+width: 100%;
+height: 100%;
+color: white;
+background: linear-gradient(to bottom, rgba(002,0,0,0.5), rgba(002,0,0,0.5));
+padding: 10px 30px 10px 30px;
 }
 
 .site-map{
-	color: #A0A0A0;
+color: #A0A0A0;
 }
 .map:hover{
-	text-decoration: none;
+text-decoration: none;
 }
 
 /*#logo{
-	width: 123px;
-    height: 43px;
-    background: url(elements/images/header_sprite.png) -2px 45px;
-    margin-right: 20px;
+width: 123px;
+height: 43px;
+background: url(elements/images/header_sprite.png) -2px 45px;
+margin-right: 20px;
 }*/
 #logo {
 	width: 0px;
-    height: 0px;
-    outline: none;
-    padding: 44px 81px 42px 41px;
-    margin: -50px 20px 0px 0px;
-    background-image: url(elements/images/header_sprite.png);
+	height: 0px;
+	outline: none;
+	padding: 44px 81px 42px 41px;
+	margin: -50px 20px 0px 0px;
+	background-image: url(elements/images/header_sprite.png);
 }
 #arrow{
 	width: 16px;
-    height: 16px;
-    background: url(elements/images/header_sprite.png) 48px 71px;
-    margin-left: 3px;
+	height: 16px;
+	background: url(elements/images/header_sprite.png) 48px 71px;
+	margin-left: 3px;
 }
 #like{
 	width: 18px;
-    height: 20px;
-    background: url(elements/images/header_sprite.png) 28px 68px;
-    margin-left: 10px;
+	height: 20px;
+	background: url(elements/images/header_sprite.png) 28px 68px;
+	margin-left: 10px;
 }
 #star{
 	width: 19px;
-    height: 20px;
-    background: url(elements/images/star_arrow.png) 0 0;
-    margin-left: 2px;
+	height: 20px;
+	background: url(elements/images/star_arrow.png) 0 0;
+	margin-left: 2px;
 }
 #bluarrow{
 	width: 20px;
-    height: 20px;
-    background: url(elements/images/star_arrow.png) 65px 19px;
-    margin-left: 6px;
+	height: 20px;
+	background: url(elements/images/star_arrow.png) 65px 19px;
+	margin-left: 6px;
 }
 #footer-logos{
 	width: 168px;
-    height: 36px;
-    background: url(elements/images/footer-sprite.png) 0 0;
-    margin-left: 230px;
+	height: 36px;
+	background: url(elements/images/footer-sprite.png) 0 0;
+	margin-left: 230px;
 }
 #android{
 	width: 145px;
-    height: 48px;
-    background: url(elements/images/footer-sprite.png) 0 48px;
-    margin-left: 150px;
+	height: 48px;
+	background: url(elements/images/footer-sprite.png) 0 48px;
+	margin-left: 150px;
 }
 #apple{
 	width: 145px;
-    height: 48px;
-    background: url(elements/images/footer-sprite.png) 145px 48px;
-    margin-left: 150px;
+	height: 48px;
+	background: url(elements/images/footer-sprite.png) 145px 48px;
+	margin-left: 150px;
 }
 #nav_back_arrow{
 	width: 28px;
-    height: 22px;
-    background: url(elements/images/pageination_sprite.png) -22px -15px;
-    margin-right: 2px;
+	height: 22px;
+	background: url(elements/images/pageination_sprite.png) -22px -15px;
+	margin-right: 2px;
 }
 #b_c_right_arrow{
 	width: 18px;
-    height: 25px;
-    background: url(elements/images/pageination_sprite.png) -85px -15px;
-    margin-right: 2px;
-    margin-left: 10px;
+	height: 25px;
+	background: url(elements/images/pageination_sprite.png) -85px -15px;
+	margin-right: 2px;
+	margin-left: 10px;
 }
 #arabic{
 	margin-left: 7px;
 }
 #country {
-    width: 102px;
-    height: 35px;
-    padding: 0px 0px 4px 0px;
-    border: none;
-    background-color: white;
+	width: 102px;
+	height: 35px;
+	padding: 0px 0px 4px 0px;
+	border: none;
+	background-color: white;
 }
 
 /* the following code needs refactoring*/
 /* category-box, location-box, pType-box should be made into one*/
 #category-box {
-    width: 140px;
-    height: 35px;
-    padding: 0px 0px 4px 0px;
-    margin-top: 10px;
-    background-color: white;
+	width: 140px;
+	height: 35px;
+	padding: 0px 0px 4px 0px;
+	margin-top: 10px;
+	background-color: white;
 
-    border-color: #B8B8B8;
-    border-width: 0.10em;
+	border-color: #B8B8B8;
+	border-width: 0.10em;
 	border-style: solid;
 	border-radius: 2.5px;
 }
@@ -164,14 +164,14 @@
 	margin-left: 5px;
 }
 #location-box{
-    width: 340px;
-    height: 35px;
-    padding: 0px 0px 4px 0px;
-    margin-top: 10px;
-    background-color: white;
+	width: 340px;
+	height: 35px;
+	padding: 0px 0px 4px 0px;
+	margin-top: 10px;
+	background-color: white;
 
-    border-color: #B8B8B8;
-    border-width: 0.10em;
+	border-color: #B8B8B8;
+	border-width: 0.10em;
 	border-style: solid;
 	border-radius: 2.5px;
 }
@@ -179,14 +179,14 @@
 	margin-left: 200px;
 }
 #pType-box {
-    width: 160px;
-    height: 35px;
-    padding: 0px 0px 4px 0px;
-    margin-top: 10px;
-    background-color: white;
+	width: 160px;
+	height: 35px;
+	padding: 0px 0px 4px 0px;
+	margin-top: 10px;
+	background-color: white;
 
-    border-color: #B8B8B8;
-    border-width: 0.10em;
+	border-color: #B8B8B8;
+	border-width: 0.10em;
 	border-style: solid;
 	border-radius: 2.5px;
 }
@@ -196,76 +196,76 @@
 
 /*
 .dropdown select {
-      border: 0 !important;.  /*Removes border
-     -webkit-appearance: none;  /*Removes default chrome and safari style
-     -moz-appearance: none;  /*Removes default style Firefox
-      background: url('elements/images/arrow.png') no-repeat;
-      background-position: 82px 7px;
-      text-indent: 0.01px; /* Removes default arrow from firefox
-      text-overflow: "";
-  }
+  border: 0 !important;.  /*Removes border
+ -webkit-appearance: none;  /*Removes default chrome and safari style
+ -moz-appearance: none;  /*Removes default style Firefox
+  background: url('elements/images/arrow.png') no-repeat;
+  background-position: 82px 7px;
+  text-indent: 0.01px; /* Removes default arrow from firefox
+  text-overflow: "";
+}
 */
 
 /* LOGIN and FIND buttons can be refactored*/
 #login{
 	background-color: white; /* Green */
-    
-    border-color: #B8B8B8;
-    border-width: 0.10em;
+	
+	border-color: #B8B8B8;
+	border-width: 0.10em;
 	border-style: solid;
 	border-radius: 2.5px;
 
 	padding: 4px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 
-    font-size: 11px;
+	font-size: 11px;
 }
 
 #find{
 	background-color: #05a262; /* Green */
-    
-    border-width: 0.10em;
+	
+	border-width: 0.10em;
 	border-style: solid;
 	border-radius: 3px;
 	border-color: none;
 
 	padding: 4px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 
-    font-size: 11px;
-    font-weight: bold;
-    color: white;
-    height: 37px;
-    width: 70px;
-    /*box-shadow: 0px 1px 0px #999999;*/
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	height: 37px;
+	width: 70px;
+	/*box-shadow: 0px 1px 0px #999999;*/
 
-    margin-top: 30px;
-    margin-left: 25px;
+	margin-top: 30px;
+	margin-left: 25px;
 }
 #contact{
 	background-color: #05a262;
-    border-width: 0.10em;
-    border-style: solid;
-    border-radius: 2px;
-    border-color: none;
+	border-width: 0.10em;
+	border-style: solid;
+	border-radius: 2px;
+	border-color: none;
 
-    padding: 4px 15px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 11px;
-    font-weight: bold;
-    color: white;
-    
-    height: 37px;
-    width: 85px;
-    margin-left: 143px;
-    margin-top: -12px;
-    display: inline;
-    /*box-shadow: 0px 1px 0px #999999;*/
+	padding: 4px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+	
+	height: 37px;
+	width: 85px;
+	margin-left: 143px;
+	margin-top: -12px;
+	display: inline;
+	/*box-shadow: 0px 1px 0px #999999;*/
 
 }
 
@@ -273,22 +273,22 @@
 
 /* refactor the following code using SEARCH class or anyother way*/
 #save{
-    margin-left: 110px;
-    font-size: 11px;
+	margin-left: 110px;
+	font-size: 11px;
 	margin-top: -36px;
 	color: #0066FF;
 }
 #filter{
-    margin-left: 110px;
-    font-size: 11px;
-    margin-top: 9px;
-    color: #0066FF;
+	margin-left: 110px;
+	font-size: 11px;
+	margin-top: 9px;
+	color: #0066FF;
 }
 #bread_crumb{
-    font-size: 11px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #0066FF;
+	font-size: 11px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #0066FF;
 }
 /* above code needs to be refactored */
 

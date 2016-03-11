@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+
+			$("#btn-sect").click(function(){
+				$("#sect-elmnt").slideToggle(100,"linear","");
+				if ($(this).val() == "Hide") {
+					$(this).val("Show");}
+					else {
+						$(this).val("Hide");
+
+					}
+				});
+
+			$("#btn-div").click(function(){
+				$("#div-elmnt").slideToggle(500,"linear","");
+				if ($(this).val() == "Hide") {
+					$(this).val("Show");}
+					else {
+						$(this).val("Hide");
+
+					}
+				});
+
+			$("#btn-p").click(function(){
+				$("#p-elmnt").slideToggle(900,"linear","");
+				if ($(this).val() == "Hide") {
+					$(this).val("Show");}
+					else {
+						$(this).val("Hide");
+
+					}
+				});
+
+		});
+	</script>
+</head>
+<body>
+
+	<section id="sect-elmnt">This is a span element.</section>
+	<input type="button" id="btn-sect" value="Hide"></input>
+	<br><br>
+
+	<div id="div-elmnt">This is a div element.</div>
+	<input type="button" id="btn-div" value="Hide"/></input>
+	<br><br>
+
+	<p id="p-elmnt">This is a paragraph.</p>
+	<input type="button" id="btn-p" value="Hide"/></input>
+
+</body>
+</html>
