@@ -308,7 +308,7 @@
 }
 
 #amenities-table{
-	width: 100%;
+	padding-left: 20px;
 }
 
 #amenities-label{
@@ -553,3 +553,14 @@
 	margin-left: 35%;
 }
 
+#int-city{
+	width: 105%;
+    text-align: center;
+    border-color: #B8B8B8;
+    border-style: solid;
+    border-width: thin;
+    height: 135px;
+    padding-top: 5%;
+    overflow: hidden;
+    margin-top: 10%;
+}

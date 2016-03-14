@@ -101,22 +101,22 @@
 								<span id="amenities-label">Amenities</span>
 								<button id="toggle-amenities" type="submit" value="Hide"><img id="arrow"></button>
 								</div>
-								<div id="amenities-table">
+								<div>
 									<table>
 										<tr>
-											<td><img id="aircon"></td><td>Central Air-con</td>
-											<td><img id="firstaid"></td><td>First Aid</td>
-											<td><img id="security"></td><td>Secuirty Staff</td>
+											<td id="amenities-table"><img id="aircon"></td>		<td id="amenities-table">Central Air-con</td>
+											<td id="amenities-table"><img id="firstaid"></td>	<td id="amenities-table">First Aid</td>
+											<td id="amenities-table"><img id="security"></td>	<td id="amenities-table">Secuirty Staff</td>
 										</tr>
-										<tr>
-											<td><img id="elevator"></td><td>Service Elevators</td>
-											<td><img id="gym"></td><td>Gym or Health Club</td>
-											<td><img id="cctv"></td><td>CCTV security</td>
+										<tr id="amenities-table">
+											<td id="amenities-table"><img id="elevator"></td>	<td id="amenities-table">Service Elevators</td>
+											<td id="amenities-table"><img id="gym"></td>		<td id="amenities-table">Gym or Health Club</td>
+											<td id="amenities-table"><img id="cctv"></td>		<td id="amenities-table">CCTV security</td>
 										</tr>
-										<tr>
-											<td><img id="concierge"></td><td>24 Hour Concierge</td>
-											<td><img id="swimpool"></td><td>Swimming Pool</td>
-											<td></td><td></td>
+										<tr id="amenities-table">
+											<td id="amenities-table"><img id="concierge"></td>	<td id="amenities-table">24 Hour Concierge</td>
+											<td id="amenities-table"><img id="swimpool"></td>	<td id="amenities-table">Swimming Pool</td>
+											<td id="amenities-table"></td>						<td id="amenities-table"></td>
 										</tr>					
 									</table>
 								</div>
@@ -174,22 +174,29 @@
 						</div>
 
 						<div class="right">
-							<label id="cntct-agnt">Contact Agent</label>
-							<form>
-								<input id="contact-form" type="text" name="name" placeholder="Name"><br>
-								<input id="contact-form" type="text" name="email" placeholder="Email"><br>
-								<input id="contact-form" type="text" name="phone" placeholder="Phone"><br>
-								<select id="form-select" name="user-type">
-									<option>I am: Direct Buyer</option>
-									<option>I am: Seller</option>
-									<option>I am: Property Agent</option>
-								</select><br>
-								<textarea id="contact-form-textarea" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br>
-								<label><input type="checkbox">I am not a robot</label>
-								<input id="btn-email" type="submit" value="Send Email"><br>
-								<input id="btn-call" type="submit" value="Call Agent"><br>
-								<label><input type="checkbox">Keep me update with similar properties</label>
-							</form>
+							<div>
+								<label id="cntct-agnt">Contact Agent</label>
+								<form>
+									<input id="contact-form" type="text" name="name" placeholder="Name"><br>
+									<input id="contact-form" type="text" name="email" placeholder="Email"><br>
+									<input id="contact-form" type="text" name="phone" placeholder="Phone"><br>
+									<select id="form-select" name="user-type">
+										<option>I am: Direct Buyer</option>
+										<option>I am: Seller</option>
+										<option>I am: Property Agent</option>
+									</select><br>
+									<textarea id="contact-form-textarea" name="question" placeholder="I would like to inquire about the property FS-C-21431. Please conatct me at your earliest convenience"></textarea><br>
+									<label><input type="checkbox">I am not a robot</label>
+									<input id="btn-email" type="submit" value="Send Email"><br>
+									<input id="btn-call" type="submit" value="Call Agent"><br>
+									<label><input type="checkbox">Keep me update with similar properties</label>
+								</form>
+							</div>
+							<div class="page-header">
+								<div id="int-city">
+									<img src="elements/images/layout(property-search-page-view)_03(2).png">
+								</div>
+							</div>
 						</div>
 					</div>
 				</section><!-- End Of Container -->
